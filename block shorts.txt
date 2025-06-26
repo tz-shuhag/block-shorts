@@ -1,7 +1,7 @@
 ! Title: Block YouTube Shorts
 ! Description: Remove all YouTube Shorts content & elememts.
 ! Version: 1.0
-! Homepage: 
+! Homepage: https://tz-shuhag.github.io/block-shorts/
 
 ! Remove empty spaces in grid
 www.youtube.com##ytd-rich-grid-row,#contents.ytd-rich-grid-row:style(display: contents !important)

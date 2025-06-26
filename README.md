@@ -1,4 +1,3 @@
-# 🎬 block-shorts
 ![Logo](assets/image.png)
 
 A [uBlock Origin](https://github.com/gorhill/uBlock) filter list that hides YouTube Shorts content — perfect for anyone tired of short-form video clutter.

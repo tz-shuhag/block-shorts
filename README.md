@@ -13,6 +13,7 @@ IT removes all traces of YouTube shorts distractions in Feed and videos. This fi
 
 For Mobile Browser Like (Brave, Cromite,...)
 - `https://raw.githubusercontent.com/tz-shuhag/block-shorts/refs/heads/main/mobile-shorts.txt`
+
 6. Click Apply Changes
 
 ## 🪄 Features

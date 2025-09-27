@@ -1,7 +1,12 @@
+# **⚠️ Block Shorts**
+> [!NOTE]
+> **A [uBlock Origin](https://github.com/gorhill/uBlock) filter list that hides YouTube Shorts content — perfect for anyone tired of short-form video clutter.
+IT removes all traces of YouTube shorts distractions in Feed and videos. This filter list also works with other content blockers.**
+
+
+# ✨ Preview
 ![Logo](assets/shorts.webp)
 
-A [uBlock Origin](https://github.com/gorhill/uBlock) filter list that hides YouTube Shorts content — perfect for anyone tired of short-form video clutter.
-IT removes all traces of YouTube shorts distractions in Feed and videos. This filter list also works with other content blockers.
 
 # 𓊍 STEPS
 1. uBlock Origin
@@ -35,4 +40,3 @@ Contributions are welcome!
 ## 🏆 Credits
 
 Made with ♡ by •󠁏󠁏 [TZ Shuhag](https://tz-shuhag.github.io)
----

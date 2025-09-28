@@ -1,5 +1,5 @@
 # **⚠️ Block Shorts**
-> [!NOTE]
+
 > **A [uBlock Origin](https://github.com/gorhill/uBlock) filter list that hides YouTube Shorts content — perfect for anyone tired of short-form video clutter.
 IT removes all traces of YouTube shorts distractions in Feed and videos. This filter list also works with other content blockers.**
 

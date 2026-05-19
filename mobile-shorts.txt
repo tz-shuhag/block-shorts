@@ -1,20 +1,25 @@
 ! Title: ❌ Mobile Shorts
 ! Description: Remove YT Shorts content & elememts.
-! Version: 1.0
+! Version: 2.0
 ! Homepage: https://tz-shuhag.github.io/block-shorts/
 
-! Main page
-youtube.com##ytd-rich-section-renderer:has(a[href^="/shorts/"])
-m.youtube.com##.rich-section-content
-! Trending page
-youtube.com##ytd-reel-shelf-renderer:has(a[href^="/shorts/"])
-! Search/Trending page (Android)
-youtube.com##ytm-reel-shelf-renderer
-youtube.com##.media-item-thumbnail-container[aria-hidden][href^="/shorts/"]
-youtube.com##ytm-media-item:has(a[href^="/shorts/"])
-youtube.com##ytd-rich-shelf-renderer[is-shorts]
-youtube.com##ytd-video-renderer > .ytd-video-renderer:has(a[href^="/shorts/"])
-! side shorts
-youtube.com###items.yt-horizontal-list-renderer > ytd-reel-item-renderer
-! shorts icons mobile
+! Hide all videos with the shorts indicator
+m.youtube.com##ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-video-with-context-renderer)
+
+! Remove generic shorts shelf except on history page
+m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-reel-shelf-renderer
+
+! Hide shorts button in the bottom navigation bar
 m.youtube.com##ytm-pivot-bar-item-renderer:has(.pivot-shorts)
+
+! Hide shorts sections except on history page
+m.youtube.com##:matches-path(/^(?!\/feed\/history).*$/)ytm-shorts-lockup-view-model:upward(ytm-rich-section-renderer)
+
+! Hide shorts tab on channel pages
+m.youtube.com##yt-tab-shape[tab-title="Shorts"]
+
+! Hide shorts filter/category on top of homepage and search pages
+www.youtube.com##ytm-chip-cloud-chip-renderer:has([aria-label="Shorts"])
+
+! Hide shorts sections on search page
+m.youtube.com##ytm-shorts-lockup-view-model:upward(grid-shelf-view-model)
